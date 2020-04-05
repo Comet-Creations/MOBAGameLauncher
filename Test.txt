@@ -1,1 +1,8 @@
-AAAAAAAAAA
+Fullscreen Mode,Video,OptionCommandLine,Checkbox,0,0,1,-1,Windowed,Windowed-Fullscreen,Fullscreen,Epic,false,q,q,-1
+V-Sync,Video,OptionCommandLine,Toggle,-1,-1,-1,-1,Near,Medium,Far,Epic,false,q,q,-1
+View Distance,Video,OptionCommandLine,Checkbox,0,0,0,1,Near,Medium,Far,Epic,false,q,q,-1
+Anti-Aliasing,Video,OptionCommandLine,Checkbox,0,0,0,1,Low,Medium,High,Epic,false,q,q,-1
+Post Processing,Video,OptionCommandLine,Checkbox,0,0,0,1,Low,Medium,High,Epic,false,q,q,-1
+Shadows,Video,OptionCommandLine,Checkbox,0,0,0,1,Low,Medium,High,Epic,false,q,q,-1
+Textures,Video,OptionCommandLine,Checkbox,0,0,0,1,Low,Medium,High,Epic,false,q,q,-1
+Effects,Video,OptionCommandLine,Checkbox,0,0,0,1,Low,Medium,High,Epic,false,q,q,-1
