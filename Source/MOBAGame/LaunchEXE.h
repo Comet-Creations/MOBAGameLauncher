@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
+#include "Containers/UnrealString.h"
+#include <string>
 #include "LaunchEXE.generated.h"
 
 /**
@@ -15,6 +17,6 @@ class MOBAGAME_API ULaunchEXE : public UBlueprintFunctionLibrary
 	GENERATED_BODY() public:
 
 		UFUNCTION(BlueprintPure, Category = "Custom", meta = (Keywords = "LaunchEXE"))
-			static bool LaunchEXE(FString FileNameA);
+			static FString LaunchEXE(FString FileNameA);
 	
 };

@@ -1,10 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "LaunchEXE.h"
+#include <Runtime\Core\Public\Misc\Paths.h>
 
-bool ULaunchEXE::LaunchEXE(FString FileNameA)
+FString ULaunchEXE::LaunchEXE(FString FileNameA)
 {
-    system("C:\\Users\\conno\\Downloads\\PackagedBuilds\\MOBAClient\\MOBAGameClient.exe");
-    return 0;
+    FPlatformProcess::CreateProc(*FileNameA, nullptr, true, false, false, nullptr, 0, nullptr, nullptr);
+    return FileNameA;
 }
